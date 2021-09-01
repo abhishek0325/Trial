@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+<h2>push()</h2>
+
+
+<button onclick="myFunction()">push</button>
+
+<p id="demo"></p>
+
+<script>
+var guns = ["M416", "M249", "Scar-L", "crossbow"];
+document.getElementById("demo").innerHTML = guns;
+
+function myFunction() {
+  guns.push("M24");
+  document.getElementById("demo").innerHTML = guns;
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>pop() function</h2>
+
+<button onclick="myFunction()">pop</button>
+<p id="demo1"></p>
+<p id="demo2"></p>
+
+<script>
+var guns = ["M416", "M249", "Scar-L", "crossbow"];
+document.getElementById("demo1").innerHTML = guns;
+
+function myFunction() {
+  guns.pop();
+
+  document.getElementById("demo1").innerHTML = guns;
+}
+</script>
+
+</body>
+</html>
